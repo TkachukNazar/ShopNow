@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/ShopNow/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Головна | ShopNow</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+    </div>
+
+    <div id="navbar-placeholder"></div>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+      <h1 class="display-4 fade-in">Ласкаво просимо до ShopNow!</h1>
+      <p class="lead fade-in">Ваш надійний онлайн-магазин для всієї родини</p>
+    </header>
+
+    <section class="container text-center my-5 fade-in">
+      <div
+        id="carouselMain"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselMain"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Слайд 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselMain"
+            data-bs-slide-to="1"
+            aria-label="Слайд 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselMain"
+            data-bs-slide-to="2"
+            aria-label="Слайд 3"
+          ></button>
+        </div>
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img
+              src="https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/tile/Apple-iPhone-16-Pro-hero-240909-lp.jpg.landing-big_2x.jpg"
+              class="d-block w-100"
+              alt="iPhone 16 Pro"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              data-src="https://m-cdn.phonearena.com/images/article/166630-wide-two_1200/Leaked-Galaxy-S25-promotional-images-show-off-Samsungs-newest-phones-ahead-of-launch.jpg"
+              class="d-block w-100 lazy-img"
+              alt="Samsung Galaxy S25"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              data-src="https://static1.xdaimages.com/wordpress/wp-content/uploads/2022/01/Xiaomi-Redmi-Note-11-series-global-launch-featured-qrtwy892345.jpg"
+              class="d-block w-100 lazy-img"
+              alt="Redmi Note 11"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselMain"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselMain"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-md-6 fade-in">
+          <h2>Про наш магазин</h2>
+          <p>
+            ShopNow — це сучасний інтернет-магазин, де ви знайдете все
+            необхідне: від електроніки до товарів для дому. Ми прагнемо
+            забезпечити клієнтів найкращими товарами за вигідними цінами.
+            Асортимент постійно оновлюється, тож ви завжди будете в курсі
+            новинок.
+          </p>
+          <p>
+            Ми співпрацюємо тільки з перевіреними постачальниками та гарантуємо
+            якість продукції. Кожен товар має детальний опис, характеристики і
+            фотографії, щоб ви могли зробити виважений вибір.
+          </p>
+        </div>
+        <div class="col-md-6 d-flex flex-row fade-in">
+          <section class="container fade-in p-0 m-0" style="">
+            <div
+              id="carouselSecondary"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner rounded shadow">
+                <div class="carousel-item active">
+                  <img
+                    src="https://content.runbazaar.com/uploads/Redme_12_Banners_31_ee4a27e2cf.png"
+                    class="d-block w-100"
+                    alt="Redmi 12"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    data-src="https://img.global.news.samsung.com/in/wp-content/uploads/2019/02/295-A-Series-KV-Banner-36x24inch-e1551339667384.jpg"
+                    class="d-block w-100 lazy-img"
+                    alt="Samsung A-Series"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    data-src="https://images.unsplash.com/photo-1692854653551-511b6065df36?q=80&w=1170&auto=format&fit=crop"
+                    class="d-block w-100 lazy-img"
+                    alt="Phone Promo"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5 text-center fade-in">
+      <h2 class="mb-4">Ознайомтесь з новинками електротехніки</h2>
+      <video
+        controls
+        poster="https://i.ytimg.com/vi/eDqfg_LexCQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBv8RVf-m6XuO45BYDliolrRNhN8A"
+        class="rounded shadow"
+        preload="none"
+      >
+        <source src="/video.mp4" type="video/mp4" />
+        Ваш браузер не підтримує відео тег.
+      </video>
+    </section>
+
+    <section class="container py-5">
+      <h2 class="text-center mb-4 fade-in">Наші переваги</h2>
+      <div class="row text-center">
+        <div class="col-md-4 fade-in">
+          <h5>Швидка доставка</h5>
+          <p>
+            Оперативно доставляємо замовлення по всій Україні зручним для вас
+            способом.
+          </p>
+        </div>
+        <div class="col-md-4 fade-in">
+          <h5>Підтримка 24/7</h5>
+          <p>
+            Наші оператори завжди готові допомогти з будь-яким питанням, що вас
+            цікавить.
+          </p>
+        </div>
+        <div class="col-md-4 fade-in">
+          <h5>Зручна оплата</h5>
+          <p>
+            Оплата онлайн, післяплатою або частинами — ви обираєте найзручніший
+            варіант.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light text-center py-5 fade-in">
+      <h2>Обирайте якість разом з ShopNow!</h2>
+      <p>
+        Перегляньте наші категорії товарів та знайдіть усе, що потрібно саме
+        вам.
+      </p>
+      <a href="products.html" class="btn btn-primary btn-lg mt-3"
+        >До каталогу товарів</a
+      >
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2025 ShopNow. Усі права захищено.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="navbar.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

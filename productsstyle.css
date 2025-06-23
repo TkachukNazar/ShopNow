@@ -1,0 +1,26 @@
+#thankYouMessage {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 14rem;
+  gap: 7.5rem;
+}
+#thankYouMessage.visible {
+  opacity: 1;
+}
+body {
+  background: linear-gradient(to bottom right, #f0f8ff, #e6f0ff);
+  font-family: "Segoe UI", sans-serif;
+}
+.product-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.miniature {
+  width: 50px;
+  height: auto;
+}

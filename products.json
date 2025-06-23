@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Xiaomi Redmi Note 9 8/128GB Blue",
+    "price": 4500,
+    "img": "https://i.allo.ua/media/catalog/product/cache/1/image/434x494/602f0fa2c1f0d1ba5e241f914e856ff9/import/6324478121206061.webp",
+    "desc": "Смартфон з потужним акумулятором, великим дисплеєм 6.53\" і камерою 48 Мп для щоденних задач."
+  },
+  {
+    "title": "Samsung Galaxy M21",
+    "price": 8000,
+    "img": "https://i.allo.ua/media/catalog/product/cache/1/image/434x494/602f0fa2c1f0d1ba5e241f914e856ff9/s/m/sm-m215f_002_back_black_.webp",
+    "desc": "AMOLED-дисплей, акумулятор 6000 мАг і потрійна камера – все для вашої зручності."
+  },
+  {
+    "title": "Apple iPhone 16 128GB Black",
+    "price": 38000,
+    "img": "https://i.allo.ua/media/catalog/product/cache/1/image/434x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_16_black_pdp_image_position_1__ce-ww_1.webp",
+    "desc": "Нове покоління iPhone з надшвидким A17 чипом і покращеною камерою в стильному корпусі."
+  },
+  {
+    "title": "Xiaomi Redmi Note 14 6/128 Mist Purple",
+    "price": 6000,
+    "img": "https://i.allo.ua/media/catalog/product/cache/1/image/434x494/602f0fa2c1f0d1ba5e241f914e856ff9/1/_/1_69_30_2_1.webp",
+    "desc": "Сучасний смартфон з продуктивним процесором, NFC та стильним дизайном."
+  },
+  {
+    "title": "Samsung Galaxy S20 FE SM-G780G 6/128GB White",
+    "price": 9000,
+    "img": "https://i.allo.ua/media/catalog/product/cache/1/image/434x494/602f0fa2c1f0d1ba5e241f914e856ff9/import/3665681712300027.jpg",
+    "desc": "Флагманські можливості за доступною ціною: дисплей 120 Гц, водозахист, топовий чипсет."
+  },
+  {
+    "title": "Apple iPhone 15 128GB Black",
+    "price": 34000,
+    "img": "https://i.allo.ua/media/catalog/product/cache/1/image/434x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_black_pdp_image_position-1__ww-en.jpg",
+    "desc": "Неймовірний дисплей, довгий час автономної роботи і унікальні функції iOS 17."
+  }
+]
